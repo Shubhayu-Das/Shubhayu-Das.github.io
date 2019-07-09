@@ -1,0 +1,7 @@
+html{
+    height: calc(100vh);
+}
+.App{
+    overflow-x: hidden;
+    height: calc(100vh);
+}

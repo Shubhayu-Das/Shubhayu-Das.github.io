@@ -1,0 +1,16 @@
+.variation {
+	min-height: 80vh;
+	position: relative;
+	font-family: "Merriweather";
+}
+.breadcrumb {
+	font-size: 1.2rem;
+}
+.text-decoration-none {
+	color: black;
+}
+
+.footer {
+	bottom: 0%;
+	width: 100%;
+}
