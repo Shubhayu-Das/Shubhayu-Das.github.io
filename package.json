@@ -17,6 +17,12 @@
 		"reactstrap": "^8.0.0",
 		"typeface-merriweather": "0.0.72"
 	},
+	"keywords": [
+		"Shubhayu",
+		"Das",
+		"Shubhayu-Das",
+		"Shubhayu Das"
+	],
 	"scripts": {
 		"start": "react-scripts start",
 		"build": "react-scripts build",
