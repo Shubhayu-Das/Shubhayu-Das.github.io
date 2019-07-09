@@ -1,0 +1,31 @@
+#carousel{
+    margin: auto;
+    margin-top: calc(10vh);
+}
+
+.image{
+    width: inherit;
+    height: calc(55vh);
+}
+
+.carousel-indicators{
+    background-color: rgba(0, 0, 0, 0.1);
+    width: auto;
+}
+
+.heading-cert{
+    font-size: 1.3rem;
+}
+
+.carousel-indicators .active{
+    background-color: red;
+}
+
+@media (max-height: 768px){
+    #carousel{
+        margin-top: calc(20vh);
+    }
+    .image{
+        max-height: calc(35vh);
+    }
+}
