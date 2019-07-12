@@ -33,11 +33,9 @@ class Header extends Component {
 			<React.Fragment>
 				<Navbar className="bg-dark" expand="md">
 					<div className="container-fluid">
-						<NavbarBrand className="mr-auto">
-							<Link to="/home" className="text-decoration-none">
-								<div className="header-name">Shubhayu Das</div>
-							</Link>
-						</NavbarBrand>
+						<Link to="/home" className="text-decoration-none">
+							<div className="header-name">Shubhayu Das</div>
+						</Link>
 						<NavbarToggler className="float-right" onClick={this.toggleNav}>
 							<i className="fas fa-bars" />
 						</NavbarToggler>
