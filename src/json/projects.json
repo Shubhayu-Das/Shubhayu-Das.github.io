@@ -25,7 +25,16 @@
 			"tech_stack": "JavaScript",
 			"collaborators": "",
 			"status": "Completed",
-			"link": "https://github.com/sateslayer/zense-project"
+			"link": "https://github.com/Shubhayu-Das/zense-project"
+		},
+		{
+			"id": 4,
+			"name": "Notes manager using Dropbox",
+			"description": "This is one of my experiments with APIs. It's just a simple wrapper for the Dropbox API in JavaScript.<br />I have structured it to load all the folders that exist in my Dropbox account. As of now, I can upload and download files as per my convenience in any of the folders that I want to. <br />This is probably going to be a part of my student helper app. I am currently working on authentication and deleting files.<br />Any suggestions for improvements are more than welcome",
+			"tech_stack": "JavaScript",
+			"collaborators": "",
+			"status": "Ongoing",
+			"link": "https://github.com/Shubhayu-Das/dropbox-note-manager"
 		}
 	]
 }

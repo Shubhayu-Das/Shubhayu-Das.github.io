@@ -60,12 +60,11 @@ function Footer() {
 				</div>
 				<div className="row justify-content-center">
 					<p className="text-light">
-						Shubhayu Das · 2019 · Hosted with{" "}
+						Shubhayu Das · {new Date().getFullYear()} · Hosted with{" "}
 						<span id="heart" className="text-danger">
-							{" "}
-							♥{" "}
+							♥
 						</span>{" "}
-						by Heroku
+						by Github
 					</p>
 				</div>
 			</div>

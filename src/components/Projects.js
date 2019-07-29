@@ -1,7 +1,7 @@
 import React from 'react';
 import { Card, CardBody, CardTitle, CardFooter, CardDeck, Breadcrumb, BreadcrumbItem } from 'reactstrap';
 import { Link } from 'react-router-dom';
-import { Slide, Fade } from 'react-reveal';
+import { Fade } from 'react-reveal';
 
 import  Header from './Header.js';
 import Footer from  './Footer.js';
@@ -21,7 +21,7 @@ function Projects(props) {
 
     const allCards = props.projects.map((project) => {
         return (
-            <Card key = {project.id} className="col-md-3 mr-md-5 mt-5 p-0 pt-2">
+            <Card key = {project.id} className="col-12 col-md-4 mr-md-5 mt-5 p-0 pt-2">
                 <Link className = "text-decoration-none" to = {`projects/${project.id}`} >
                     <CardTitle className = "text-center" tag="h3">{project.name}</CardTitle>
                     <CardBody style = {{"paddingBottom": "calc(8vh)"}}>
@@ -47,11 +47,11 @@ function Projects(props) {
                         <BreadcrumbItem active> Projects </BreadcrumbItem>
                     </Breadcrumb>
                 </Fade>
-                <Slide bottom>
-                    <CardDeck className="justify-content-center col-12 offset-md-1 mb-5">
+                <Fade>
+                    <CardDeck className="justify-content-center col-12 offset-md-1 ml-md-3 mb-5">
                         {allCards}
                     </CardDeck>
-                </Slide>
+                </Fade>
             </div>
             <Fade big>
                 <Footer />
